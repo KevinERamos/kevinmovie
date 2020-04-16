@@ -1,0 +1,22 @@
+#home #carousel-nuevas-peliculas{
+    height: 85vh;
+}
+
+#home .list-nuevas-peliculas{
+    height: 100%;
+}
+
+.carousel-item{
+    height: 100%;
+    background-size: cover;
+}
+
+#home .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+}
+
+.efecto:hover{
+    transform: scale(1.03);
+    transition: all 0.5s;
+}

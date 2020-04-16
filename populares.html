@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas API</title>
+    <!-- css de boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- css user -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <!-- js de bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/e7bfea5b44.js" crossorigin="anonymous"></script>
+
+    <!-- js user -->
+    <script src="js/popular.js"></script>
+
+</head>
+
+<body id="populares">
+    
+</body>
+
+<!-- Nav inicio -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+
+    <a class="navbar-brand" href="./index.html">
+      <i class="fas fa-film"></i>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#desplegar"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="desplegar">
+      <ul class="navbar-nav">
+
+        <li class="nav-item ">
+          <a class="nav-link" href="./index.html">Inicio </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./ultimos.html">Ultimos Lanzanmientos</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="./populares.html">Populares </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="./buscador.html">Buscador</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<!-- Nav final -->
+
+<!-- contenido  inicio -->
+<div class="container-fluid mt-5 ">
+  <h1 class="display-4 strong text-center mt-4 p-4">Más Populares <i class="fas fa-video"></i></h1>
+  <div class="row listado">
+    <!-- pintarPelis -->
+  </div>
+</div>
+<!-- contenido  fin -->
+
+
+<!-- paginacion inicio -->
+<div class="container d-flex justify-content-center">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <!-- paginar -->
+    </ul>
+  </nav>
+</div>
+<!-- paginacion fin -->
+
+
+
+
+
+<footer>
+  <div class="container-fluid bg-dark">
+    
+    <div class="row">
+
+      <div class="col-12 text-center">
+        <a href="https://kevineramos.github.io/" target="_blank" class="navbar-brand display-4 text-white">
+          <strong class="text-success font-weight-bold">
+            < </strong>Kevin Ramos <strong class="text-warning font-weight-bold">/></strong>
+        </a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <p class="text-center  text-white">Todos los derechos reservador &copy; Kevin E Ramos <script> document.write(new Date().getFullYear()) </script></p> </p>
+      </div>
+    </div>
+
+    <div class="row ">
+      <div class="col-4 text-center">
+        <a href="https://www.facebook.com/kevin.Eduardo.Ramos.Gonzales" target="_blank"><i class="fab fa-facebook-square text-center h1"></i></a>
+      </div>
+      
+      <div class="col-4 text-center ">
+        <a href="https://api.whatsapp.com/send?phone=51970344480&text=Hola!%20Kevin%20E%20mas%20Ramos!"target="_blank"><i class="fab fa-whatsapp text-success h1"></i></a>
+      </div>
+
+      <div class="col-4 text-center pb-4">
+        <a href="https://github.com/KevinERamos/kevinmovie" target="_blank"><i class="fab fa-github text-muted h1"></i></a>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+
+
+</html>
